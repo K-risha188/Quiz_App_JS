@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div class="quiz">
+    <h1>QUIZ APP</h1>
+    <p id="progress"></p>
+    <p>What is Javascript ?</p>
+    <label>
+    <input type="radio" name="answer"> <span>Programming Language</span> </label>
+    <label>
+    <input type="radio" name="answer"> <span>Scripting Language</span> </label>
+    <label>
+    <input type="radio" name="answer"> <span>Markup Language</span> </label>
+    <label>
+    <input type="radio" name="answer"> <span>Both A and B</span> </label>
+    <br>
+    <button>Next -></button>
+    </div>
+
+    <div id="result" style="display:none;">
+        <h2>Your Score</h2>
+        <p id="scoreText"></p>
+        <button onclick = "location.reload()">Retake Quiz</button>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
